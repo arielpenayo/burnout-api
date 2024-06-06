@@ -33,7 +33,24 @@ Paciente.init({
     tipo:{
         allowNull: true,
         type: DataTypes.TINYINT
-    }
+    },
+    cansancioEmocional: {  
+        allowNull: true,
+        type: DataTypes.STRING(100)
+    },
+    despersonalizacion: {
+        allowNull: true,
+        type: DataTypes.STRING(100)
+    },
+    relacionPersonal: {
+        allowNull: true,
+        type: DataTypes.STRING(100)
+    },
+    porcentaje: {
+        allowNull: true,
+        type: DataTypes.INTEGER
+    },
+    
     
 },
     {
