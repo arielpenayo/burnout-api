@@ -11,7 +11,8 @@ Paciente.init({
     }, 
     email: {
         allowNull: true,
-        type: DataTypes.STRING(100)
+        type: DataTypes.STRING(100),
+        primaryKey: true
     },
     tipo: {
         allowNull: true,
