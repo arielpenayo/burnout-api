@@ -30,6 +30,11 @@ Paciente.init({
         allowNull: true,
         type: DataTypes.TINYINT
     },
+    tipo:{
+        allowNull: true,
+        type: DataTypes.TINYINT
+    }
+    
 },
     {
         timestamps: false,
