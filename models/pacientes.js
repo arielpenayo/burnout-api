@@ -40,4 +40,4 @@ Paciente.init({
 
 
 
-export default Usuario;
+export default Paciente;
