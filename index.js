@@ -9,6 +9,7 @@ import preguntasRouter from "./routes/preguntas.js";
 import usuariosRoutes from "./routes/usuarios.js";
 import authRouter from "./routes/auth.js";
 import usuariosEvaluacionesRouter from "./routes/usuariosEvaluaciones.js";
+import pacientesRouter from "./routes/pacientes.js";
 
 const app = express();
 app.use(cors());
@@ -21,7 +22,8 @@ app.use(
   cuestionariosRouter,
   preguntasRouter,
   usuariosRoutes,
-  usuariosEvaluacionesRouter
+  usuariosEvaluacionesRouter,
+  pacientesRouter
 );
 
 app.listen(PORT || 3001, () => {
